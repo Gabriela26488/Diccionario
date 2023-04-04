@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario</title>
+</head>
+<body>
+    <section class="dark">
+        <button id="darkMode" class="btnd">Modo Oscuro</button>
+       
+    </section>
+    <section class="home">
+        <h1>Diccionario Universal</h1>
+        <h2>¡Tu Universo de Palabras!</h2>
+   
+        <div class="buscar">
+            <input type="text" id="input" class="input" placeholder="Busca aquí una palabra"> 
+            <button type="button" class="btn" id="btn">Buscar</button> 
+        </div>
+
+        <section class="diccionario" id="diccionario">
+            <div class="palabra">
+                <h2>_</h2>
+                <button class="vol"><i class="fas fa-volume-up"></i></button>
+            </div>
+
+            <ul>
+                <li class="adj">
+                    <div class="box">
+                        <p>_</p>
+                    </div>
+                </li>
+                <li class="significado">
+                    <div class="box">
+                        <h3>Significado</h3>
+                        <p>__</p>
+                    </div>
+                </li>
+                <li class="fuente">
+                    <div class="box">
+                        <h3>Fuente</h3>
+                        <p>__</p>
+                    </div>
+                </li>
+                <li class="sinonimo">
+                    <div class="box">
+                        <h3>Sinonimo</h3>
+                        <div class="lista"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+   
+    </section>
+    
+    <audio id="sonido"></audio>
+
+
+    <script src="script.js"></script>
+    <script src="dark.js"></script>
+</body>
+</html>
